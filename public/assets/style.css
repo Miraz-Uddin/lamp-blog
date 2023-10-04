@@ -1,0 +1,54 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 35rem;
+}
+
+article {
+    padding-top: 1rem;
+    max-width: 50rem;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: brown;
+}
+
+p {
+    color: #2c2c2c;
+}
+
+article+article {
+    padding-top: 1rem;
+    margin-top: 5rem;
+    border-top: 1px solid #57c4d0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: 600;
+}
+
+a.button {
+    background-color: chocolate;
+    padding: .6rem 1.2rem;
+    border: 2px solid chocolate;
+    color: aliceblue;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.back-button-parent {
+    margin-top: .8rem;
+    display: block;
+}
+
+.small {
+    margin-top: -1rem;
+    color: #7c7c7c;
+    font-size: 0.7rem;
+}
